@@ -1,0 +1,27 @@
+to view total tables list
+
+select table_name from user_tables;
+
+to open particuar table
+select *from krishna;
+
+
+to create table);
+create table krishna (id int,name varchar(22),sal int);
+
+
+
+to insert values in table
+
+insert into krishna values (20,'mayuri',25000);
+ 
+ to save
+commit;
+
+
+to update the data in table
+update krishna set id=21 where name='kaveri';
+
+
+to delete records in table
+delete krishna where name='mayuri';
